@@ -44,3 +44,5 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const codeImg = document.querySelector("#cta-img")
 codeImg.setAttribute('src', "img/header-img.png")
+
+//notes notes notes
