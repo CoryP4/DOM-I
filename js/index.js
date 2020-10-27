@@ -88,3 +88,28 @@ topText2.textContent = "About"
 
 const topPara2 = document.querySelector(".top-content .text-content:nth-of-type(2) p")
 topPara2.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+//Middle image
+
+const midImage = document.querySelector("#middle-img")
+midImage.setAttribute('src', "img/mid-page-accent.jpg")
+
+//Bottom Content
+
+const botText1 = document.querySelector(".bottom-content .text-content:nth-of-type(1) h4")
+botText1.textContent = "Services"
+
+const botPara1 = document.querySelector(".bottom-content .text-content:nth-of-type(1) p")
+botPara1.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+const botText2 = document.querySelector(".bottom-content .text-content:nth-of-type(2) h4")
+botText2.textContent = "Product"
+
+const botPara2 = document.querySelector(".bottom-content .text-content:nth-of-type(2) p")
+botPara2.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+const botText3 = document.querySelector(".bottom-content .text-content:nth-of-type(3) h4")
+botText3.textContent = "Vision"
+
+const botPara3 = document.querySelector(".bottom-content .text-content:nth-of-type(3) p")
+botPara3.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
